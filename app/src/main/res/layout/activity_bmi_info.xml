@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bac_4"
-    tools:context=".BMIInfo">
+    tools:context=".BMIInfo"
+    android:orientation="vertical">
 
 
     <TextView
@@ -20,19 +21,183 @@
 
     </TextView>
 
-    <Button
-        android:layout_width="259dp"
-        android:layout_height="83dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="80dp"
-        android:text="BMI CHART"
-        android:textSize="30dp"
-        android:textStyle="italic|bold">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
-    </Button>
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <Button
+                android:id="@+id/bmi_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:text="BMI CHART"
+                android:textStyle="italic|bold"
+                android:textSize="30dp"
+                android:onClick="show_bmichart"
+
+                >
+
+            </Button>
+
+            <TextView
+                android:layout_width="184dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="110dp"
+                android:paddingLeft="60dp"
+                android:text="B.M.I "
+                android:textSize="40dp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bmi_cal_show"
+                android:layout_width="128dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="80dp"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:background="#FFFFFF"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:layout_marginRight="300dp"
+                android:text="Height: "
+                android:textSize="23dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/bmi_foot"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="220dp"
+                android:textSize="23dp"
+                android:inputType="number"
+                android:hint="Exa: 5"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/bmi_inch"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="130dp"
+                android:textSize="23dp"
+                android:inputType="number"
+                android:hint="Exa: 3"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="200dp"
+                android:text="Foot Inch"
+                android:textSize="23dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="260dp"
+                android:gravity="center"
+                android:layout_marginRight="300dp"
+                android:text=" Weight: "
+                android:textSize="23dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/bmi_weight"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginRight="130dp"
+                android:gravity="center"
+                android:hint="Exa: 60"
+                android:inputType="number"
+                android:textSize="23dp"
+                android:textStyle="normal">
+
+            </EditText>
+
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="52dp"
+                android:gravity="center"
+                android:layout_marginLeft="290dp"
+                android:layout_marginTop="260dp"
+                android:text="kg"
+                android:textSize="23dp"
+                android:textStyle="normal|bold"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/bmi_calculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:text="calculate"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:onClick="show_bmi_cal"
+                >
+
+            </Button>
 
 
+        </RelativeLayout>
+
+    </ScrollView>
 
 
-
-</RelativeLayout>
+</LinearLayout>
