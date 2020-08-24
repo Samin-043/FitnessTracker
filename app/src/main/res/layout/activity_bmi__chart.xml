@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35CFBF"
+    tools:context=".BMi_Chart">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#EBE0E0"
+        android:text="BMI Chart"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="40dp"
+        android:textStyle="italic|bold">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_start"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+
+                >
+
+                <TextView
+                    android:layout_width="187dp"
+                    android:layout_height="match_parent"
+                    android:text="Category"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="193dp"
+                    android:layout_height="match_parent"
+                    android:text="BMI (kg/m2) Range"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_1"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="187dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="Underweight"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:text="0 - 18.5"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_2"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="Normal Range"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+                    android:text="18.5 - 23"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_3"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="Overweight-  At Risk"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:text="23 - 25"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_4"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="15dp"
+                    android:text="Overweight-Moderately Obese"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:text="25  - 30"
+                    android:paddingTop="5dp"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal">
+
+                </TextView>
+
+            </TableRow>
+
+
+            <TableRow
+
+                android:id="@+id/bmi_raw_5"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="204dp"
+                    android:layout_height="112dp"
+                    android:text="Overweight-Severely Obese"
+                    android:textSize="30dp"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold|normal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="5dp"
+                    android:text=" > 30"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold|normal"
+
+                    >
+
+                </TextView>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</TableLayout>

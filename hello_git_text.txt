@@ -1,0 +1,1 @@
+$ git config --global user.name "Samin Ul Alam"

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/excercise_background"
+    tools:context=".DietInfo">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diet Section"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+
+        >
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <TableRow
+
+            android:id="@+id/exc_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            >
+
+            <Button
+                android:id="@+id/calorie"
+                android:layout_width="161dp"
+                android:layout_height="154dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/calo"
+
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/nutrition"
+                android:layout_width="161dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="65dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/nutri">
+
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Calorie"
+                android:textSize="20dp"
+                android:textColor="#FFFFF0"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="90dp"
+                android:gravity="center"
+                android:text="nutrition"
+                android:textAlignment="center"
+                android:textColor="#FFFFF0"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/exc_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/waterlog"
+                android:layout_width="161dp"
+                android:layout_height="154dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/water">
+
+            </Button>
+
+            <Button
+                android:id="@+id/dailyfood"
+                android:layout_width="161dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="65dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/d_food">
+
+            </Button>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            >
+
+            <TextView
+                android:layout_width="199dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="WaterLog"
+                android:textColor="#FFFFF0"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="90dp"
+                android:gravity="center"
+                android:text="Daily Food"
+                android:textAlignment="center"
+                android:textColor="#FFFFF0"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </TableRow>
+
+    </TableLayout>
+</TableLayout>

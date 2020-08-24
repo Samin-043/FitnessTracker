@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExJumping_jack">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F7EAE7">
+
+
+            <WebView
+                android:id="@+id/gif_jumping_jack"
+                android:layout_width="match_parent"
+                android:layout_height="517dp">
+
+            </WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="540dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textStyle="italic|bold"
+                android:textColor="#03A9F4"
+                android:text="Benefits of Jumping Jack : "
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jump_jack"
+                android:textSize="25dp"
+                android:textStyle="bold|normal"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="600dp"
+                android:textColor="#9C27B0"
+                android:layout_marginBottom="20dp"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/j_previous"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/back_button"
+                android:onClick="previous_page_show"
+
+                >
+
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

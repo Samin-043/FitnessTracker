@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+
+    <string name="jump_jack">
+
+        1. A Good Warm-Up Exercise.
+        \n
+        2. Work Out The Whole Body.
+        \n
+        3. Improve Flexibility.
+        \n
+        4. Tone The Muscles.
+        \n
+        5. Improve Coordination.
+
+    </string>
+
+    <string name="crunch_exe">
+
+        1.Performing crunches don’t require any of those fancy gym equipment. All you need is some space and a will to stay fit.
+        \n
+        2.Not only doing crunches helps you in getting a toned and ripped mid-section but it also strengthens your stabilizer muscles like spinal erector muscles.
+        \n
+        3.A 10 minute of moderate crunch session burns about 54 calories for a 160-pound male while increasing the intensity for a 10-minute crunch session can burn about 100 calories.
+
+
+    </string>
+
+    <string name="push_up">
+
+        1. Enhance Your Cardiovascular System.
+        \n
+        2.Save Time While Cultivating a Strong Body.
+        \n
+        3.Prevent Lower Back Injuries.
+
+    </string>
+
+    <string name="mountain_climb">
+
+        1.building cardio endurance.
+        \n
+        2.core strength.
+        \n
+        3.agility.
+        \n
+        4.improve on your upper body strength
+
+    </string>
+
+    <string name="jogging">
+
+        1.help to build strong bones, as it is a weight bearing exercise.
+        \n
+        2.strengthen muscles.
+        \n
+        3.improve cardiovascular fitness.
+        \n
+        4.burn plenty of kilojoules.
+
+    </string>
+
+    <string name="lunge_str">
+
+        1. Better Balance and Coordination
+        \n
+        2.Improved Core Stability
+        \n
+        3.Increased Hip Mobility
+
+    </string>
+
+</resources>

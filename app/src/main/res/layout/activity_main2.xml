@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_fitness_tracker_word"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="278dp"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingRight="60dp"
+        android:paddingLeft="40dp"
+        android:text="Features"
+        android:textSize="45dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ScrollView
+
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <TableRow
+
+                android:id="@+id/first_row_1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <Button
+                    android:id="@+id/Excercise"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/fast"
+                    android:onClick="Exercise_show"
+
+                    >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/HeartRate"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_heart_rate">
+
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <TextView
+                    android:layout_width="192dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Exercise"
+                    android:textSize="20dp"
+                    android:textColor="#FFFFF0"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="90dp"
+                    android:gravity="center"
+                    android:text="Heartrate monitor"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/first_row_2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:id="@+id/Food"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_daily_food"
+                    android:onClick="diet_show">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/DailyRoutine"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_daily_routine">
+
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <TextView
+                    android:layout_width="199dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="Diet"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="90dp"
+                    android:gravity="center"
+                    android:text="Daily Routine"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <Button
+                    android:id="@+id/YogaExcercise"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/new_png_yoga">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/BmiCal"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_bmi"
+                    android:onClick="BMI_page_show"
+                    >
+
+                </Button>
+
+            </TableRow>
+
+
+
+
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:text="Yoga"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFF0"
+                    android:textAlignment="center"
+
+                    />
+                <TextView
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:text="BMI Calculator"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="90dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFF0"
+
+                    />
+
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/first_row_4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <Button
+                    android:id="@+id/ChatWithOther"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_message"
+
+                    >
+
+                </Button>
+
+                <Button
+                    android:id="@+id/ZoneOfWalking"
+                    android:layout_width="161dp"
+                    android:layout_height="154dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="65dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/png_location"
+
+                    >
+
+                </Button>
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                >
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:text="Sharing"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFF0"
+                    android:textAlignment="center"
+
+                    />
+                <TextView
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:text="Nearby park"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="90dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFF0"
+                    android:layout_marginBottom="30dp"
+
+                    />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</TableLayout>
