@@ -12,7 +12,7 @@ import android.widget.Button;
 public class ExJumping_jack extends AppCompatActivity {
 
     WebView jumping_jack_view;
-    Button previous;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +25,6 @@ public class ExJumping_jack extends AppCompatActivity {
         String file = "file:android_asset/jumping_jack.gif";
         jumping_jack_view.loadUrl(file);
 
-        previous=(Button)findViewById(R.id.j_previous);
-
     }
 
-    public void previous_page_show(View view) {
-
-        Intent i=new Intent(getApplicationContext(),ExecirseInfo.class);
-        startActivity(i);
-
-    }
 }

@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BMi_Chart"></activity>
+        <activity android:name=".ExCrunch"></activity>
+        <activity android:name=".BMi_Chart" />
         <activity android:name=".BMIInfo" />
         <activity android:name=".ExLunge" />
         <activity android:name=".ExJogging" />

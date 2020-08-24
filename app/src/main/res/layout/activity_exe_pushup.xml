@@ -47,26 +47,11 @@
                 android:paddingLeft="15dp"
                 android:layout_marginTop="600dp"
                 android:textColor="#9C27B0"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="30dp"
 
                 >
 
             </TextView>
-
-            <Button
-                android:id="@+id/j_previous"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="900dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/back_button"
-                android:onClick="third_previous_page_show"
-
-                >
-
-            </Button>
-
 
         </RelativeLayout>
 

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExChrunch">
+    tools:context=".ExCrunch">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,26 +46,10 @@
                 android:paddingLeft="10dp"
                 android:layout_marginTop="600dp"
                 android:textColor="#9C27B0"
-                android:layout_marginBottom="20dp"
-
+                android:layout_marginBottom="30dp"
                 >
 
             </TextView>
-
-            <Button
-                android:id="@+id/j_previous"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="1200dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/back_button"
-                android:onClick="second_previous_page_show"
-
-                >
-
-            </Button>
-
 
         </RelativeLayout>
 

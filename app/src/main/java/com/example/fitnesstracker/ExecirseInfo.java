@@ -48,7 +48,7 @@ public class ExecirseInfo extends AppCompatActivity {
     }
 
     public void chrunch_show(View view) {
-        Intent i=new Intent(getApplicationContext(), ExChrunch.class);
+        Intent i=new Intent(getApplicationContext(),ExCrunch.class);
         startActivity(i);
     }
 
