@@ -20,7 +20,13 @@
         <activity android:name=".ExJumping_jack" />
         <activity android:name=".ExecirseInfo" />
         <activity android:name=".Main2Activity" />
+        <activity android:name=".DietInfo"/>
+        <activity android:name=".CalorieInfo"/>
+        <activity android:name=".NutritionInfo"/>
+        <activity android:name=".WaterLogInfo"/>
+        <activity android:name=".DailyFoodInfo"/>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

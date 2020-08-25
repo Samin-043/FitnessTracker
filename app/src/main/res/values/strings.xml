@@ -70,4 +70,142 @@
 
     </string>
 
+    <string name="bmi_underweight">
+
+        N.B :
+        \n
+        Along with being underweight, the following conditions will put you Getting more infections and other conditions:
+
+        1.Getting more infections.
+        \n
+        2.Taking longer to recover from illness.
+        \n
+        3.Slow wound healing (eg, after surgery).
+        \n
+        4.Thinning of the bones.
+        \n
+        5.Irregular heart rhythms.
+        \n
+        6.Higher risk of heart attack.
+        \n
+        7.Lack of periods, and infertility.
+
+
+    </string>
+
+    <string name="bmi_normalweight">
+
+
+    </string>
+
+    <string name="bmi_Overweight_at_Risk">
+
+        N.B :
+        \n
+        Along with being overweight or obese, the following conditions will put you at greater risk for heart disease and other conditions:
+        \n
+        1.High blood pressure (hypertension)
+        \n
+        2.High LDL cholesterol ("bad" cholesterol)
+        \n
+        3.Low HDL cholesterol ("good" cholesterol)
+        \n
+        4.High triglycerides
+        \n
+        5.High blood glucose (sugar)
+        \n
+        6.Family history of premature heart disease
+        \n
+        7.Physical inactivity
+        \n
+        8.Cigarette smoking
+
+    </string>
+
+    <string name="bmi_overweight_moderately_obese">
+
+        N.B :
+        \n
+        Along with being overweight or obese, the following conditions will put you at greater risk for heart disease and other conditions:
+        \n
+        1.High blood pressure (hypertension)
+        \n
+        2.High LDL cholesterol ("bad" cholesterol)
+        \n
+        3.Low HDL cholesterol ("good" cholesterol)
+        \n
+        4.High triglycerides
+        \n
+        5.High blood glucose (sugar)
+        \n
+        6.Family history of premature heart disease
+        \n
+        7.Physical inactivity
+        \n
+        8.Cigarette smoking
+
+
+
+    </string>
+
+    <string name="bmi_overweight_severely_obese">
+
+        N.B :
+        \n
+        Along with being overweight or obese, the following conditions will put you at greater risk for heart disease and other conditions:
+        \n
+        1.High blood pressure (hypertension)
+        \n
+        2.High LDL cholesterol ("bad" cholesterol)
+        \n
+        3.Low HDL cholesterol ("good" cholesterol)
+        \n
+        4.High triglycerides
+        \n
+        5.High blood glucose (sugar)
+        \n
+        6.Family history of premature heart disease
+        \n
+        7.Physical inactivity
+        \n
+        8.Cigarette smoking
+
+
+    </string>
+
+    <string name="low_calorie_txt">
+        1.Longer lives.\n
+        2.Higher levels of physical activity.\n
+        3.Lower rates of cancer.\n
+        4.Less age-related degeneration of the brain.\n
+        5.Improved reproductive performance.
+    </string>
+
+    <string name="nutrition_txt">
+        1.Reduce the risk of some diseases, including heart disease, diabetes, stroke, some cancers, and osteoporosis.\n
+        2.Reduce high blood pressure.\n
+        3.Lower high cholesterol.\n
+        4.Improve your well-being.\n
+        5.Improve your ability to fight off illness.\n
+        6.Improve your ability to recover from illness or injury.
+    </string>
+
+    <string name="water_txt">
+        1.Drinking water will improve memory and mood.\n
+        2.It can help reduce sugar cravings and aid weight maintenance.\n
+        3.It will improve exercise performance.\n
+        4.It may help prevent constipation in children and adults.\n
+        5.It may help to prevent kidney stones.
+    </string>
+
+    <string name="dailyfood_txt">
+        1.Weight loss.\n
+        2.Reduced cancer risk.\n
+        3.Diabetes management.\n
+        4.Heart health and stroke prevention.\n
+        5.The health of the next generation.
+    </string>
+
+
+
 </resources>

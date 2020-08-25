@@ -41,7 +41,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/calo"
+                android:background="@drawable/cal"
+                android:onClick="calorieInfo_show"
 
                 >
 
@@ -55,7 +56,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="65dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/nutri">
+                android:background="@drawable/nutr"
+                android:onClick="nutritionInfo_show"
+                >
 
             </Button>
 
@@ -83,7 +86,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="90dp"
                 android:gravity="center"
-                android:text="nutrition"
+                android:text="Nutrition"
                 android:textAlignment="center"
                 android:textColor="#FFFFF0"
                 android:textSize="20dp"
@@ -108,7 +111,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/water">
+                android:background="@drawable/glasses_of_water"
+                android:onClick="waterlog_show">
 
             </Button>
 
@@ -120,7 +124,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="65dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/d_food">
+                android:background="@drawable/daily_food"
+                android:onClick="dailyfood_show">
 
             </Button>
 
@@ -148,7 +153,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="90dp"
                 android:gravity="center"
-                android:text="Daily Food"
+                android:text="Daily Healthy Food"
                 android:textAlignment="center"
                 android:textColor="#FFFFF0"
                 android:textSize="20dp"

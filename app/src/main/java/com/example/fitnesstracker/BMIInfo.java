@@ -17,6 +17,12 @@ public class BMIInfo extends AppCompatActivity {
     EditText  inch;
     EditText weight;
     Button cal;
+    TextView weight_view;
+    TextView weight_view_text;
+    TextView health_view;
+    TextView health_view_text;
+    TextView health_issue;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +35,11 @@ public class BMIInfo extends AppCompatActivity {
         weight=(EditText)findViewById(R.id.bmi_weight);
         cal=(Button)findViewById(R.id.bmi_calculate);
         bmi_result=(TextView)findViewById(R.id.bmi_cal_show);
+        weight_view=(TextView)findViewById(R.id.we_catagory);
+        weight_view_text=(TextView)findViewById(R.id.we_catagory_text);
+        health_view=(TextView)findViewById(R.id.health_tips);
+        health_view_text=(TextView)findViewById(R.id.health_text);
+        health_issue=(TextView)findViewById(R.id.causes_of_health);
 
     }
 
@@ -39,13 +50,60 @@ public class BMIInfo extends AppCompatActivity {
 
     }
 
-    /*private  void display_bmi(float bmi_value)
+    private  void display_bmi(float bmi_value)
     {
-        String bmi_content;
+        String bmi_content="";
+        if(bmi_value<18.5)
+        {
+            bmi_result.setText(Float.toString(bmi_value));
+            weight_view.setText("Weight catagory: ");
+            weight_view_text.setText("Underweight");
+            health_view.setText("Health Risk: ");
+            health_view_text.setText("maximum");
+            health_issue.setText("");
+            health_issue.setText(getText(R.string.bmi_underweight));
+        }
+        else if(bmi_value>=18.5&&bmi_value<23)
+        {
+            bmi_result.setText(Float.toString(bmi_value));
+            weight_view.setText("Weight catagory: ");
+            weight_view_text.setText("Normal Range");
+            health_view.setText("Health Risk: ");
+            health_view_text.setText("low");
+            health_issue.setText("");
+        }
+        else if(bmi_value>=23&&bmi_value<25)
+        {
+            bmi_result.setText(Float.toString(bmi_value));
+            weight_view.setText("Weight catagory: ");
+            weight_view_text.setText("Overweight- At Risk");
+            health_view.setText("Health Risk: ");
+            health_view_text.setText("high");
+            health_issue.setText("");
+            health_issue.setText(getText(R.string.bmi_Overweight_at_Risk));
+        }
+        else if(bmi_value>=25&&bmi_value<30)
+        {
+            bmi_result.setText(Float.toString(bmi_value));
+            weight_view.setText("Weight catagory: ");
+            weight_view_text.setText("Overweight-Moderately Obese");
+            health_view.setText("Health Risk: ");
+            health_view_text.setText("much high");
+            health_issue.setText(getText(R.string.bmi_overweight_moderately_obese));
 
+        }
+        else
+        {
+            bmi_result.setText(Float.toString(bmi_value));
+            weight_view.setText("Weight catagory: ");
+            weight_view_text.setText("Overweight-Severely Obese");
+            health_view.setText("Health Risk: ");
+            health_view_text.setText("maximum high");
+            health_issue.setText("");
+            health_issue.setText(getText(R.string.bmi_overweight_severely_obese));
 
-
-    }*/
+        }
+    }
 
     public void show_bmi_cal(View view) {
 
@@ -55,8 +113,8 @@ public class BMIInfo extends AppCompatActivity {
         double inch_me=0.0254;
         double foot_me=0.3048;
 
-        //bmi_result.setText(Double.toString(inch_me));
 
+        int flag=0;
 
        if(height_foot!= null && !"".equals(height_foot))
         {
@@ -69,13 +127,21 @@ public class BMIInfo extends AppCompatActivity {
                     float final_height=height_foot_value+height_inch_value;
                     float weight_value=Float.parseFloat(weight_kg);
                     float final_res=(weight_value)/(final_height*final_height);
-                    //+Float.parseFloat(height_inch)*0.0254;
 
-                    bmi_result.setText(Float.toString(final_res));
+                    //bmi_result.setText(Float.toString(final_res));
+                    flag=1;
+
+                    display_bmi(final_res);
+
+                    if(flag==1)
+                    {
+                        foot.setText("");
+                        inch.setText("");
+                        weight.setText("");
+                    }
 
                 }
             }
         }
-
     }
 }
