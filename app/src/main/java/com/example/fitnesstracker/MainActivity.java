@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button next;
+    Button signIn;
     TextView textView;
 
     @Override
@@ -19,13 +19,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        next=(Button)findViewById(R.id.Next);
+        signIn=(Button)findViewById(R.id.SignIn);
         textView=(TextView)findViewById(R.id.AppName);
 
     }
 
     public void main2activity_show(View view) {
-        Intent i=new Intent(getApplicationContext(),Main2Activity.class);
+        Intent i=new Intent(getApplicationContext(),LogInPageActivity.class);
         startActivity(i);
     }
 }

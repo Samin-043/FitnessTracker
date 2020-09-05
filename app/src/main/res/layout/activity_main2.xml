@@ -8,13 +8,11 @@
     android:orientation="vertical"
     tools:context=".Main2Activity">
 
-
     <TextView
         android:id="@+id/description"
         android:layout_width="278dp"
         android:layout_height="104dp"
         android:gravity="center"
-        android:paddingTop="20dp"
         android:paddingRight="60dp"
         android:paddingLeft="40dp"
         android:text="Features"

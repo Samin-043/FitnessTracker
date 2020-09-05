@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExCrunch"></activity>
+        <activity android:name=".SignUpActivityPage"></activity>
+        <activity android:name=".LogInPageActivity" />
+        <activity android:name=".ExCrunch" />
         <activity android:name=".BMi_Chart" />
         <activity android:name=".BMIInfo" />
         <activity android:name=".ExLunge" />
@@ -20,13 +22,12 @@
         <activity android:name=".ExJumping_jack" />
         <activity android:name=".ExecirseInfo" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".DietInfo"/>
-        <activity android:name=".CalorieInfo"/>
-        <activity android:name=".NutritionInfo"/>
-        <activity android:name=".WaterLogInfo"/>
-        <activity android:name=".DailyFoodInfo"/>
+        <activity android:name=".DietInfo" />
+        <activity android:name=".CalorieInfo" />
+        <activity android:name=".NutritionInfo" />
+        <activity android:name=".WaterLogInfo" />
+        <activity android:name=".DailyFoodInfo" />
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

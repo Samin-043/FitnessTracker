@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bac_13"
+    tools:context=".LogInPageActivity">
+
+
+    <EditText
+        android:id="@+id/SignIn_EmailId"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="15dp"
+        android:hint="Email address"
+        android:background="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/SignIn_Password"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:background="#FFFFFF"
+        android:paddingLeft="15dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/Loginbutton"
+        android:layout_width="350dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:background="@color/colorAccent"
+        android:onClick="ShownewActivity"
+        >
+
+    </Button>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp">
+
+        <TextView
+            android:layout_width="288dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Don't hava an account?"
+            android:textColor="#4CD2E9"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/SignInpage_SignUpbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:onClick="showSignUpPage"
+            >
+
+        </Button>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+    </ProgressBar>
+
+
+</LinearLayout>

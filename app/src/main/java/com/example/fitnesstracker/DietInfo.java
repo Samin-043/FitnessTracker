@@ -15,18 +15,15 @@ public class DietInfo extends AppCompatActivity {
     Button dailyfood;
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diet_info);
 
-        calorie = findViewById(R.id.calorie);
-        nutrition = findViewById(R.id.nutrition);
-        waterlog = findViewById(R.id.waterlog);
-        dailyfood = findViewById(R.id.dailyfood);
+        calorie =(Button)findViewById(R.id.calorie);
+        nutrition =(Button)findViewById(R.id.nutrition);
+        waterlog = (Button)findViewById(R.id.waterlog);
+        dailyfood =(Button) findViewById(R.id.dailyfood);
 
     }
 
