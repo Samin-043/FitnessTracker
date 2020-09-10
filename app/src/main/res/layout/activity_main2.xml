@@ -10,11 +10,11 @@
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="278dp"
-        android:layout_height="104dp"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
         android:gravity="center"
-        android:paddingRight="60dp"
         android:paddingLeft="40dp"
+        android:paddingRight="60dp"
         android:text="Features"
         android:textSize="45dp"
         android:textStyle="bold">
@@ -40,10 +40,11 @@
 
                 <Button
                     android:id="@+id/Excercise"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_width="151dp"
+                    android:layout_height="115dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/fast"
                     android:onClick="Exercise_show"
@@ -54,11 +55,11 @@
 
                 <Button
                     android:id="@+id/HeartRate"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="65dp"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_heart_rate">
 
@@ -73,20 +74,19 @@
                 >
 
                 <TextView
-                    android:layout_width="192dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
                     android:gravity="center"
                     android:text="Exercise"
-                    android:textSize="20dp"
-                    android:textColor="#FFFFF0"
                     android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="90dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
                     android:gravity="center"
                     android:text="Heartrate monitor"
                     android:textAlignment="center"
@@ -108,10 +108,11 @@
 
                 <Button
                     android:id="@+id/Food"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_width="124dp"
+                    android:layout_height="111dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_daily_food"
                     android:onClick="diet_show">
@@ -120,11 +121,11 @@
 
                 <Button
                     android:id="@+id/DailyRoutine"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="65dp"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_daily_routine">
 
@@ -138,8 +139,8 @@
                 >
 
                 <TextView
-                    android:layout_width="199dp"
-                    android:layout_height="30dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
                     android:gravity="center"
                     android:text="Diet"
                     android:textColor="#FFFFF0"
@@ -148,9 +149,9 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="90dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
                     android:gravity="center"
                     android:text="Daily Routine"
                     android:textAlignment="center"
@@ -171,10 +172,11 @@
 
                 <Button
                     android:id="@+id/YogaExcercise"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_width="124dp"
+                    android:layout_height="111dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/new_png_yoga">
 
@@ -182,15 +184,14 @@
 
                 <Button
                     android:id="@+id/BmiCal"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="65dp"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_bmi"
-                    android:onClick="BMI_page_show"
-                    >
+                    android:onClick="BMI_page_show">
 
                 </Button>
 
@@ -208,7 +209,8 @@
                 >
 
                 <TextView
-                    android:layout_height="30dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
                     android:textSize="20dp"
                     android:text="Yoga"
                     android:gravity="center"
@@ -218,11 +220,12 @@
 
                     />
                 <TextView
-                    android:layout_height="30dp"
-                    android:textSize="20dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
                     android:text="BMI Calculator"
+                    android:textSize="20dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="90dp"
                     android:textAlignment="center"
                     android:gravity="center"
                     android:textStyle="bold"
@@ -245,10 +248,11 @@
 
                 <Button
                     android:id="@+id/ChatWithOther"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_width="124dp"
+                    android:layout_height="111dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_message"
 
@@ -258,11 +262,11 @@
 
                 <Button
                     android:id="@+id/ZoneOfWalking"
-                    android:layout_width="161dp"
-                    android:layout_height="154dp"
-                    android:layout_marginTop="25dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="65dp"
+                    android:layout_width="151dp"
+                    android:layout_height="118dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="200dp"
                     android:layout_marginBottom="25dp"
                     android:background="@drawable/png_location"
 
@@ -279,21 +283,22 @@
                 >
 
                 <TextView
-                    android:layout_height="30dp"
-                    android:textSize="20dp"
-                    android:text="Sharing"
+                    android:layout_width="173dp"
+                    android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#FFFFF0"
+                    android:text="Sharing"
                     android:textAlignment="center"
+                    android:textColor="#FFFFF0"
+                    android:textSize="20dp"
 
-                    />
+                    android:textStyle="bold" />
                 <TextView
-                    android:layout_height="30dp"
+                    android:layout_width="141dp"
+                    android:layout_height="27dp"
+                    android:layout_marginRight="200dp"
                     android:textSize="20dp"
                     android:text="Nearby park"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="90dp"
                     android:textAlignment="center"
                     android:gravity="center"
                     android:textStyle="bold"

@@ -21,7 +21,7 @@
             <WebView
                 android:id="@+id/gif_lunge"
                 android:layout_width="match_parent"
-                android:layout_height="461dp">
+                android:layout_height="445dp">
 
             </WebView>
 
@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="530dp"
+                android:layout_marginTop="450dp"
                 android:paddingLeft="10dp"
                 android:textAlignment="center"
                 android:textStyle="italic|bold"
@@ -46,7 +46,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="10dp"
-                android:layout_marginTop="590dp"
+                android:layout_marginTop="490dp"
                 android:textColor="#9C27B0"
                 android:layout_marginBottom="30dp"
                 >

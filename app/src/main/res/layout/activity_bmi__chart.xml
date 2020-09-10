@@ -40,11 +40,11 @@
                 >
 
                 <TextView
-                    android:layout_width="187dp"
+                    android:layout_width="186dp"
                     android:layout_height="match_parent"
                     android:text="Category"
                     android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -52,11 +52,12 @@
                 </TextView>
 
                 <TextView
-                    android:layout_width="193dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:text="BMI (kg/m2) Range"
                     android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:layout_marginRight="180dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -74,11 +75,11 @@
                 android:layout_marginTop="10dp">
 
                 <TextView
-                    android:layout_width="187dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:paddingLeft="15dp"
                     android:text="Underweight"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -86,12 +87,12 @@
                 </TextView>
 
                 <TextView
-                    android:layout_width="208dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
+                    android:paddingLeft="25dp"
                     android:text="0 - 18.5"
-                    android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="180dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -112,7 +113,7 @@
                     android:layout_height="match_parent"
                     android:paddingLeft="15dp"
                     android:text="Normal Range"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -120,13 +121,13 @@
                 </TextView>
 
                 <TextView
-                    android:layout_width="225dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
+                    android:paddingLeft="25dp"
                     android:paddingTop="5dp"
                     android:text="18.5 - 23"
-                    android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="180dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -147,7 +148,7 @@
                     android:layout_height="match_parent"
                     android:paddingLeft="15dp"
                     android:text="Overweight-  At Risk"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -155,12 +156,12 @@
                 </TextView>
 
                 <TextView
-                    android:layout_width="225dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
+                    android:paddingLeft="25dp"
                     android:text="23 - 25"
-                    android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="180dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -182,7 +183,7 @@
                     android:layout_height="match_parent"
                     android:paddingLeft="15dp"
                     android:text="Overweight-Moderately Obese"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal"
 
                     >
@@ -190,13 +191,13 @@
                 </TextView>
 
                 <TextView
-                    android:layout_width="225dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
+                    android:paddingLeft="25dp"
                     android:text="25  - 30"
                     android:paddingTop="5dp"
-                    android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="180dp"
                     android:textStyle="bold|normal">
 
                 </TextView>
@@ -212,23 +213,23 @@
                 android:layout_marginTop="10dp">
 
                 <TextView
-                    android:layout_width="204dp"
+                    android:layout_width="179dp"
                     android:layout_height="112dp"
-                    android:text="Overweight-Severely Obese"
-                    android:textSize="30dp"
                     android:paddingLeft="20dp"
+                    android:text="Overweight-Severely Obese"
+                    android:textSize="25dp"
                     android:textStyle="bold|normal">
 
                 </TextView>
 
                 <TextView
-                    android:layout_width="208dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
+                    android:paddingLeft="25dp"
                     android:paddingTop="5dp"
                     android:text=" > 30"
-                    android:textAlignment="center"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginRight="180dp"
                     android:textStyle="bold|normal"
 
                     >

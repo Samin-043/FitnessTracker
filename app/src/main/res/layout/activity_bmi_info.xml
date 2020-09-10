@@ -35,27 +35,27 @@
 
             <Button
                 android:id="@+id/bmi_chart"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_width="203dp"
+                android:layout_height="68dp"
                 android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="100dp"
-                android:text="BMI CHART"
-                android:textStyle="italic|bold"
-                android:textSize="30dp"
                 android:onClick="show_bmichart"
+                android:text="BMI CHART"
+                android:textSize="25dp"
+                android:textStyle="italic|bold"
 
                 >
 
             </Button>
 
             <TextView
-                android:layout_width="184dp"
-                android:layout_height="76dp"
+                android:layout_width="188dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="110dp"
                 android:paddingLeft="60dp"
                 android:text="B.M.I "
-                android:textSize="40dp"
+                android:textSize="35dp"
 
                 >
 
@@ -63,15 +63,15 @@
 
             <TextView
                 android:id="@+id/bmi_cal_show"
-                android:layout_width="128dp"
-                android:layout_height="50dp"
+                android:layout_width="124dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="180dp"
                 android:layout_marginTop="110dp"
-                android:layout_marginLeft="200dp"
-                android:layout_marginRight="80dp"
-                android:gravity="center"
-                android:textSize="25dp"
-                android:textStyle="normal|bold"
+                android:layout_marginRight="50dp"
                 android:background="#FFFFFF"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
 
                 >
 
@@ -82,8 +82,8 @@
                 android:layout_height="52dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="200dp"
+                android:layout_marginRight="220dp"
                 android:gravity="center"
-                android:layout_marginRight="300dp"
                 android:text="Height: "
                 android:textSize="23dp"
                 android:textStyle="normal|bold"
@@ -94,27 +94,27 @@
 
             <EditText
                 android:id="@+id/bmi_foot"
-                android:layout_width="115dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="110dp"
-                android:gravity="center"
                 android:layout_marginTop="200dp"
-                android:layout_marginRight="220dp"
-                android:textSize="23dp"
-                android:inputType="number"
+                android:layout_marginRight="150dp"
+                android:gravity="center"
                 android:hint="Exa: 5"
+                android:inputType="number"
+                android:textSize="23dp"
                 android:textStyle="normal">
 
             </EditText>
 
             <EditText
                 android:id="@+id/bmi_inch"
-                android:layout_width="115dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginLeft="200dp"
                 android:layout_marginTop="200dp"
-                android:layout_marginRight="130dp"
+                android:layout_marginRight="80dp"
+                android:gravity="center"
                 android:textSize="23dp"
                 android:inputType="number"
                 android:hint="Exa: 3"
@@ -128,7 +128,7 @@
                 android:gravity="center"
                 android:layout_marginLeft="290dp"
                 android:layout_marginTop="200dp"
-                android:text="Foot Inch"
+                android:text="Foot (Inch)"
                 android:textSize="23dp"
                 android:textStyle="normal|bold"
 
@@ -140,9 +140,8 @@
                 android:layout_width="99dp"
                 android:layout_height="52dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="260dp"
-                android:gravity="center"
-                android:layout_marginRight="300dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginRight="220dp"
                 android:text=" Weight: "
                 android:textSize="23dp"
                 android:textStyle="normal|bold"
@@ -155,9 +154,9 @@
                 android:id="@+id/bmi_weight"
                 android:layout_width="167dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
+                android:layout_marginLeft="130dp"
                 android:layout_marginTop="260dp"
-                android:layout_marginRight="130dp"
+                android:layout_marginRight="110dp"
                 android:gravity="center"
                 android:hint="Exa: 60"
                 android:inputType="number"
@@ -182,17 +181,15 @@
 
             <Button
                 android:id="@+id/bmi_calculate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="370dp"
+                android:layout_width="320dp"
+                android:layout_height="68dp"
                 android:layout_marginLeft="100dp"
+                android:layout_marginTop="370dp"
                 android:layout_marginRight="100dp"
-                android:text="calculate"
-                android:textStyle="normal|bold"
-
-                android:textSize="25dp"
                 android:onClick="show_bmi_cal"
-                >
+                android:text="calculate"
+                android:textSize="20dp"
+                android:textStyle="normal|bold">
 
             </Button>
 
