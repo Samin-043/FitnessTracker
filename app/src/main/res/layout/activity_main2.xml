@@ -54,14 +54,17 @@
                 </Button>
 
                 <Button
-                    android:id="@+id/HeartRate"
+                    android:id="@+id/Counter_steps"
                     android:layout_width="151dp"
                     android:layout_height="118dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="200dp"
                     android:layout_marginBottom="25dp"
-                    android:background="@drawable/png_heart_rate">
+                    android:background="@drawable/step_counter"
+                    android:onClick="DailyStepsCount"
+
+                    >
 
                 </Button>
 
@@ -88,7 +91,7 @@
                     android:layout_height="27dp"
                     android:layout_marginRight="200dp"
                     android:gravity="center"
-                    android:text="Heartrate monitor"
+                    android:text="daily steps"
                     android:textAlignment="center"
                     android:textColor="#FFFFF0"
                     android:textSize="20dp"

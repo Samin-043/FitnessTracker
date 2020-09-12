@@ -11,12 +11,12 @@ public class Main2Activity extends AppCompatActivity {
 
     Button excercise;
     Button food;
-    Button heartrate;
     Button dailyroutine;
     Button yoga;
     Button bmi;
     Button chat;
     Button walkingzone;
+    Button stepcounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class Main2Activity extends AppCompatActivity {
 
         excercise=(Button) findViewById(R.id.Excercise);
         food=(Button) findViewById(R.id.Food);
-        heartrate=(Button) findViewById(R.id.HeartRate);
+        stepcounter = (Button) findViewById(R.id.Counter_steps);
         dailyroutine=(Button) findViewById(R.id.DailyRoutine);
         yoga=(Button) findViewById(R.id.YogaExcercise);
         bmi=(Button) findViewById(R.id.BmiCal);
@@ -48,6 +48,11 @@ public class Main2Activity extends AppCompatActivity {
 
     public void diet_show(View view) {
         Intent i=new Intent(getApplicationContext(),DietInfo.class);
+        startActivity(i);
+    }
+
+    public void DailyStepsCount(View view) {
+        Intent i=new Intent(getApplicationContext(),StepTracker.class);
         startActivity(i);
     }
 }
