@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.text.DecimalFormat;
 
 public class StepTracker extends AppCompatActivity implements SensorEventListener, StepListener {
-    private static final String TEXT_NUM_STEPS = "  Steps";
+    private static final String TEXT_NUM_STEPS = "Steps  ";
     private TextView textView;
     private StepDetector simpleStepDetector;
     private SensorManager sensorManager;
@@ -28,7 +28,9 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     private Button Stop;
     private TextView distance;
     private TextView calorie_burn;
-
+    private  TextView time;
+    int hour=0,minute=0;
+    int count=0;
 
 
     @Override
@@ -45,10 +47,11 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
 
         distance=(TextView)findViewById(R.id.distance_in_km);
         calorie_burn=(TextView)findViewById(R.id.Calorie_Burn);
-        //time=(TextView) findViewById(R.id.Time);
+        time=(TextView) findViewById(R.id.Time);
         TvSteps = (TextView) findViewById(R.id.tv_steps);
         Start = (Button) findViewById(R.id.start);
         Stop = (Button) findViewById(R.id.stop);
+
 
 
         Start.setOnClickListener(new View.OnClickListener() {
@@ -68,19 +71,18 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
             @Override
             public void onClick(View arg0) {
 
-                //Toast.makeText(getApplicationContext(), "Total Number of steps : "+numSteps, Toast.LENGTH_SHORT).show();
-                TvSteps.setText("0"+TEXT_NUM_STEPS);
-                distance.setText("0 KM");
-                calorie_burn.setText("0 CalBurned");
+                numSteps=0;
+                TvSteps.setText(TEXT_NUM_STEPS + numSteps);
+                distance.setText("0");
+                calorie_burn.setText("0");
+                time.setText("0h0m");
                 sensorManager.unregisterListener(StepTracker.this);
 
             }
         });
 
 
-
     }
-
 
 
     @Override
@@ -100,14 +102,38 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
         numSteps++;
         TvSteps.setText(TEXT_NUM_STEPS + numSteps);
         double dis=(numSteps*1.0/1250);
-        //float f = 102.236569f;
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
         float twoDigitsF = Float.valueOf(decimalFormat.format(dis));
-        distance.setText(twoDigitsF+" KM");
+        distance.setText(twoDigitsF+"");
         double calorie=numSteps*0.04;
-        DecimalFormat decimalFormat1 = new DecimalFormat("#.##");
-        float twoDigitsF1 = Float.valueOf(decimalFormat.format(calorie));
-        calorie_burn.setText(twoDigitsF1+" CalBurned");
+        count++;
+        if(count%2==0)
+        {
+            DecimalFormat decimalFormat1 = new DecimalFormat("#.#");
+            float twoDigitsF1 = Float.valueOf(decimalFormat.format(calorie));
+            calorie_burn.setText(twoDigitsF1+"");
+            count=0;
+        }
+
+        if(numSteps%60==0)
+        {
+            if(numSteps%3600==0)
+            {
+                minute=numSteps/60;
+                hour=numSteps/3600;
+                time.setText(hour +"h"+minute+"m  ");
+
+            }
+            else
+            {
+                minute=numSteps/60;
+                time.setText(hour+"h"+minute+"m  ");
+            }
+        }
+        else
+        {
+            time.setText(hour +"h"+minute+"m  ");
+        }
 
     }
 

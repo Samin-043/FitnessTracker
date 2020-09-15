@@ -5,29 +5,138 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StepTracker"
-    android:background="#CF71E0"
+    android:background="#03A9F4"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/distance_in_km_pic"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/distance"
+            android:gravity="center">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Calorie_Burn_pic"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/burn"
+            android:gravity="center">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/Time_pic"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/time"
+            android:gravity="center"
+
+
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/distance_in_km"
-            android:layout_width="171dp"
+            android:layout_width="85dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:textSize="30dp">
 
         </TextView>
 
         <TextView
             android:id="@+id/Calorie_Burn"
-            android:layout_width="184dp"
+            android:layout_width="88dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
             android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="  KM"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="Kcal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="Walking time"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            >
 
         </TextView>
 
@@ -35,25 +144,27 @@
 
     <TextView
         android:id="@+id/tv_steps"
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_width="228dp"
+        android:layout_height="122dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:gravity="center"
+        android:textColor="#28F02D"
         android:textSize="30dp"
+        android:textStyle="bold"
 
         />
 
     <Button
         android:id="@+id/start"
         android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="100dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:background="#DDD4D4"
         android:textStyle="bold|normal"
         android:textSize="20dp"
-        android:textColor="@color/blue"
+        android:textColor="#E0044D"
         android:text="Start Pedometer" />
 
     <Button
@@ -63,7 +174,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:background="#DDD4D4"
-        android:textColor="@color/blue"
+        android:textColor="#E0044D"
         android:textSize="20dp"
         android:textStyle="bold|normal"
         android:text="Stop Pedometer" />

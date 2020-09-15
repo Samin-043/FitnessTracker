@@ -52,7 +52,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void DailyStepsCount(View view) {
-        Intent i=new Intent(getApplicationContext(),StepTracker.class);
+        Intent i=new Intent(getApplicationContext(),StepCounterFirstPage.class);
         startActivity(i);
     }
 }

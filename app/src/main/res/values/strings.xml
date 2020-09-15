@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FitnessTracker</string>
 
-        <string name="jump_jack">
+    <string name="jump_jack">
 
         1. A Good Warm-Up Exercise.
         \n
@@ -15,7 +15,7 @@
 
     </string>
 
-        <string name="crunch_exe">
+    <string name="crunch_exe">
 
         1.Performing crunches don’t require any of those fancy gym equipment. All you need is some space and a will to stay fit.
         \n
@@ -26,7 +26,7 @@
 
     </string>
 
-        <string name="push_up">
+    <string name="push_up">
 
         1. Enhance Your Cardiovascular System.
         \n
@@ -36,7 +36,7 @@
 
     </string>
 
-        <string name="mountain_climb">
+    <string name="mountain_climb">
 
         1.building cardio endurance.
         \n
@@ -48,7 +48,7 @@
 
     </string>
 
-        <string name="jogging">
+    <string name="jogging">
 
         1.help to build strong bones, as it is a weight bearing exercise.
         \n
@@ -60,7 +60,7 @@
 
     </string>
 
-        <string name="lunge_str">
+    <string name="lunge_str">
 
         1. Better Balance and Coordination
         \n
@@ -70,7 +70,7 @@
 
     </string>
 
-        <string name="bmi_underweight">
+    <string name="bmi_underweight">
 
         N.B :
         \n
@@ -93,12 +93,12 @@
 
     </string>
 
-        <string name="bmi_normalweight">
+    <string name="bmi_normalweight">
 
 
     </string>
 
-        <string name="bmi_Overweight_at_Risk">
+    <string name="bmi_Overweight_at_Risk">
 
         N.B :
         \n
@@ -122,7 +122,7 @@
 
     </string>
 
-        <string name="bmi_overweight_moderately_obese">
+    <string name="bmi_overweight_moderately_obese">
 
         N.B :
         \n
@@ -148,7 +148,7 @@
 
     </string>
 
-        <string name="bmi_overweight_severely_obese">
+    <string name="bmi_overweight_severely_obese">
 
         N.B :
         \n
@@ -173,7 +173,7 @@
 
     </string>
 
-        <string name="low_calorie_txt">
+    <string name="low_calorie_txt">
         1.Longer lives.\n
         2.Higher levels of physical activity.\n
         3.Lower rates of cancer.\n
@@ -181,7 +181,7 @@
         5.Improved reproductive performance.
     </string>
 
-        <string name="nutrition_txt">
+    <string name="nutrition_txt">
         1.Reduce the risk of some diseases, including heart disease, diabetes, stroke, some cancers, and osteoporosis.\n
         2.Reduce high blood pressure.\n
         3.Lower high cholesterol.\n
@@ -190,7 +190,7 @@
         6.Improve your ability to recover from illness or injury.
     </string>
 
-        <string name="water_txt">
+    <string name="water_txt">
         1.Drinking water will improve memory and mood.\n
         2.It can help reduce sugar cravings and aid weight maintenance.\n
         3.It will improve exercise performance.\n
@@ -198,7 +198,7 @@
         5.It may help to prevent kidney stones.
     </string>
 
-        <string name="dailyfood_txt">
+    <string name="dailyfood_txt">
         1.Weight loss.\n
         2.Reduced cancer risk.\n
         3.Diabetes management.\n
