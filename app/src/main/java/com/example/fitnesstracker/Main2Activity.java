@@ -55,5 +55,11 @@ public class Main2Activity extends AppCompatActivity {
         Intent i=new Intent(getApplicationContext(),StepCounterFirstPage.class);
         startActivity(i);
     }
+
+    public void showMessage(View view) {
+        Intent i=new Intent(getApplicationContext(),ChatActivity.class);
+        startActivity(i);
+
+    }
 }
 

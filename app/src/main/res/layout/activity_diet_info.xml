@@ -36,8 +36,8 @@
 
             <Button
                 android:id="@+id/calorie"
-                android:layout_width="161dp"
-                android:layout_height="154dp"
+                android:layout_width="182dp"
+                android:layout_height="151dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
@@ -71,13 +71,13 @@
             >
 
             <TextView
-                android:layout_width="192dp"
+                android:layout_width="182dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="Calorie"
-                android:textSize="20dp"
-                android:textColor="#FFFFF0"
                 android:textAlignment="center"
+                android:textColor="#FFFFF0"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -106,8 +106,8 @@
 
             <Button
                 android:id="@+id/waterlog"
-                android:layout_width="161dp"
-                android:layout_height="154dp"
+                android:layout_width="176dp"
+                android:layout_height="150dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
@@ -118,10 +118,10 @@
 
             <Button
                 android:id="@+id/dailyfood"
-                android:layout_width="161dp"
-                android:layout_height="154dp"
-                android:layout_marginTop="25dp"
+                android:layout_width="98dp"
+                android:layout_height="153dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginRight="65dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/daily_food"
@@ -149,7 +149,8 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="90dp"
                 android:gravity="center"
@@ -157,9 +158,8 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFF0"
                 android:textSize="20dp"
-                android:textStyle="bold"
 
-                />
+                android:textStyle="bold" />
 
 
         </TableRow>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_17"
+    tools:context=".DiscussionActivity">
+
+
+    <ListView
+        android:id="@+id/discussion_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/form"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingBottom="10dp"
+        android:text=""
+        >
+    </ListView>
+
+
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#91f1f1f1"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp" >
+
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/button1"
+            android:layout_toLeftOf="@+id/sendMessageButton"
+            android:layout_weight="0.72"
+            android:hint="text message"
+            android:textColorHint="@color/blue"
+            android:textStyle="normal|bold"
+            android:padding="10dp"
+            android:ems="10"
+            android:maxHeight="80dp" />
+
+        <Button
+            android:id="@+id/message_send_button"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/message_send_icon"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="send_Option"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+

@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StepTracker"
-    android:background="#03A9F4"
+    android:background="@drawable/back_18"
     android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -144,28 +145,32 @@
 
     <TextView
         android:id="@+id/tv_steps"
-        android:layout_width="228dp"
-        android:layout_height="122dp"
+        android:layout_width="238dp"
+        android:layout_height="226dp"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
         android:textColor="#28F02D"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:textStyle="bold"
 
         />
 
+
+
     <Button
         android:id="@+id/start"
         android:layout_width="match_parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="45dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:background="#DDD4D4"
         android:textStyle="bold|normal"
         android:textSize="20dp"
         android:textColor="#E0044D"
-        android:text="Start Pedometer" />
+        android:text="Start Pedometer"
+        android:onClick="showStartPedometer"
+        />
 
     <Button
         android:id="@+id/stop"
@@ -177,6 +182,9 @@
         android:textColor="#E0044D"
         android:textSize="20dp"
         android:textStyle="bold|normal"
-        android:text="Stop Pedometer" />
+        android:text="Stop Pedometer"
+        android:onClick="ShowEndPedometer"
+        />
+
 
 </LinearLayout>

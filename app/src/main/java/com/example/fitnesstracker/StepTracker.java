@@ -3,6 +3,7 @@ package com.example.fitnesstracker;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -10,9 +11,14 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.sql.SQLTransactionRollbackException;
 import java.text.DecimalFormat;
 
 public class StepTracker extends AppCompatActivity implements SensorEventListener, StepListener {
@@ -21,7 +27,6 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     private StepDetector simpleStepDetector;
     private SensorManager sensorManager;
     private Sensor accel;
-    private int numSteps;
     private TextView TvSteps;
     private SensorEvent event;
     private Button Start;
@@ -29,14 +34,21 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     private TextView distance;
     private TextView calorie_burn;
     private  TextView time;
+
+    private int numSteps;
     int hour=0,minute=0;
     int count=0;
+    double dis;
+    double calorie;
+    String person_name;
+    String person_weight;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_step_tracker);
+
 
 
         // Get an instance of the SensorManager
@@ -52,35 +64,25 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
         Start = (Button) findViewById(R.id.start);
         Stop = (Button) findViewById(R.id.stop);
 
+    }
 
 
-        Start.setOnClickListener(new View.OnClickListener() {
+    public void showStartPedometer(View view) {
 
-            @Override
-            public void onClick(View arg0) {
+        numSteps = 0;
+        sensorManager.registerListener(StepTracker.this, accel, SensorManager.SENSOR_DELAY_FASTEST);
 
-                numSteps = 0;
-                sensorManager.registerListener(StepTracker.this, accel, SensorManager.SENSOR_DELAY_FASTEST);
+    }
 
-            }
-        });
+    public void ShowEndPedometer(View view) {
 
 
-        Stop.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View arg0) {
-
-                numSteps=0;
-                TvSteps.setText(TEXT_NUM_STEPS + numSteps);
-                distance.setText("0");
-                calorie_burn.setText("0");
-                time.setText("0h0m");
-                sensorManager.unregisterListener(StepTracker.this);
-
-            }
-        });
-
+        numSteps=0;
+        TvSteps.setText(TEXT_NUM_STEPS + numSteps);
+        distance.setText("0");
+        calorie_burn.setText("0");
+        time.setText("0h0m");
+        sensorManager.unregisterListener(StepTracker.this);
 
     }
 
@@ -101,11 +103,11 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     public void step(long timeNs) {
         numSteps++;
         TvSteps.setText(TEXT_NUM_STEPS + numSteps);
-        double dis=(numSteps*1.0/1250);
+        dis=(numSteps*1.0/1250);
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
         float twoDigitsF = Float.valueOf(decimalFormat.format(dis));
         distance.setText(twoDigitsF+"");
-        double calorie=numSteps*0.04;
+        calorie=numSteps*0.04;
         count++;
         if(count%2==0)
         {
