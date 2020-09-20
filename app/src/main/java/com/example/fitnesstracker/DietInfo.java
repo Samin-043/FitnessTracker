@@ -1,11 +1,11 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DietInfo extends AppCompatActivity {
 
@@ -19,6 +19,7 @@ public class DietInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diet_info);
+        this.setTitle("DietInfo");
 
         calorie =(Button)findViewById(R.id.calorie);
         nutrition =(Button)findViewById(R.id.nutrition);

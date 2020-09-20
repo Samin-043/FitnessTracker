@@ -1,11 +1,10 @@
 package com.example.fitnesstracker;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.media.session.PlaybackState;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -29,6 +28,7 @@ public class RecodListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recod_list);
+        this.setTitle("Record List");
 
         databaseReference= FirebaseDatabase.getInstance().getReference("PersonsInfo");
         personInfoList=new ArrayList<>();

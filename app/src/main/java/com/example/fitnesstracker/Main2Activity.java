@@ -1,11 +1,11 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -22,6 +22,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        this.setTitle("Feature");
 
         excercise=(Button) findViewById(R.id.Excercise);
         food=(Button) findViewById(R.id.Food);
@@ -60,6 +61,11 @@ public class Main2Activity extends AppCompatActivity {
         Intent i=new Intent(getApplicationContext(),ChatActivity.class);
         startActivity(i);
 
+    }
+
+    public void park_location(View view) {
+        Intent i=new Intent(getApplicationContext(),ParkLocation.class);
+        startActivity(i);
     }
 }
 

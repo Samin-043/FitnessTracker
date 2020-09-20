@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ParkLocation">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ramna Park"
+                android:textSize="30dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/ramna_park_details"
+                android:textSize="20dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/image_view1"
+                android:layout_width="352dp"
+                android:layout_height="332dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/ramna_pic"
+
+                >
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/click_image_changer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginRight="10dp"
+                android:onClick="show_next_image"
+                android:text="Next">
+
+            </Button>
+
+            <Button
+                android:id="@+id/click_image_prev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginRight="230dp"
+                android:onClick="show_prev_image"
+                android:text="Prev">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="500dp"
+                android:text="Gulshan Lake Park"
+                android:textSize="30dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="550dp"
+                android:text="@string/gulsan_lake_park_details"
+                android:textSize="20dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/image_view_2"
+                android:layout_width="352dp"
+                android:layout_height="332dp"
+                android:layout_marginTop="600dp"
+                android:src="@drawable/gulsan_lake_park_pic"
+
+                >
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/click_image_changer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="970dp"
+                android:layout_marginRight="10dp"
+                android:onClick="show_next_image_1"
+                android:text="Next"
+
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/click_image_prev_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="970dp"
+                android:layout_marginRight="230dp"
+                android:onClick="show_prev_image_1"
+                android:text="Prev">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hatirjheel Park"
+                android:layout_marginTop="1050dp"
+                android:textSize="30dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1100dp"
+                android:gravity="center"
+                android:text="@string/hatirjheel_park_details"
+                android:textSize="20dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/image_view3"
+                android:layout_width="352dp"
+                android:layout_height="332dp"
+                android:layout_marginTop="1160dp"
+                android:src="@drawable/hatirjkeel_pic"
+
+                >
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/click_image_changer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="1530dp"
+                android:layout_marginRight="10dp"
+                android:onClick="show_next_image2"
+                android:text="Next">
+
+            </Button>
+
+            <Button
+                android:id="@+id/click_image_prev_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1530dp"
+                android:layout_marginRight="230dp"
+                android:onClick="show_prev_image2"
+                android:text="Prev">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Baridhara Park"
+                android:layout_marginTop="1600dp"
+                android:textSize="30dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1650dp"
+                android:gravity="center"
+                android:text="@string/hatirjheel_park_details"
+                android:textSize="20dp"
+                android:textStyle="bold|italic">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/image_view4"
+                android:layout_width="352dp"
+                android:layout_height="332dp"
+                android:layout_marginTop="1700dp"
+                android:src="@drawable/baridhara_pic"
+
+                >
+
+            </ImageView>
+
+            <Button
+                android:id="@+id/click_image_changer_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="2070dp"
+                android:layout_marginRight="10dp"
+                android:onClick="show_next_image3"
+                android:text="Next">
+
+            </Button>
+
+            <Button
+                android:id="@+id/click_image_prev_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2070dp"
+                android:layout_marginRight="230dp"
+                android:onClick="show_prev_image3"
+                android:text="Prev">
+
+            </Button>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

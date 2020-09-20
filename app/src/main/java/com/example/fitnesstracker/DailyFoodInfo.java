@@ -1,8 +1,8 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DailyFoodInfo extends AppCompatActivity {
 
@@ -10,5 +10,6 @@ public class DailyFoodInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daily_food_info);
+        this.setTitle("DailyFoodInfo");
     }
 }

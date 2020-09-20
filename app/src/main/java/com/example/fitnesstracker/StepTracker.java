@@ -1,9 +1,5 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -11,14 +7,10 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.sql.SQLTransactionRollbackException;
 import java.text.DecimalFormat;
 
 public class StepTracker extends AppCompatActivity implements SensorEventListener, StepListener {
@@ -48,7 +40,7 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_step_tracker);
-
+        this.setTitle("Walking Tracker");
 
 
         // Get an instance of the SensorManager
@@ -101,6 +93,8 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
 
     @Override
     public void step(long timeNs) {
+
+
         numSteps++;
         TvSteps.setText(TEXT_NUM_STEPS + numSteps);
         dis=(numSteps*1.0/1250);

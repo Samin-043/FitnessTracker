@@ -1,13 +1,15 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.text.DecimalFormat;
 
 public class BMIInfo extends AppCompatActivity {
 
@@ -28,6 +30,7 @@ public class BMIInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi_info);
+        this.setTitle("BMI ");
 
         bm_chart=(Button)findViewById(R.id.bmi_chart);
         foot=(EditText)findViewById(R.id.bmi_foot);
@@ -55,7 +58,9 @@ public class BMIInfo extends AppCompatActivity {
         String bmi_content="";
         if(bmi_value<18.5)
         {
-            bmi_result.setText(Float.toString(bmi_value));
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            float twoDigitsF = Float.valueOf(decimalFormat.format(bmi_value));
+            bmi_result.setText(twoDigitsF+"");
             weight_view.setText("Weight catagory: ");
             weight_view_text.setText("Underweight");
             health_view.setText("Health Risk: ");
@@ -65,7 +70,9 @@ public class BMIInfo extends AppCompatActivity {
         }
         else if(bmi_value>=18.5&&bmi_value<23)
         {
-            bmi_result.setText(Float.toString(bmi_value));
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            float twoDigitsF = Float.valueOf(decimalFormat.format(bmi_value));
+            bmi_result.setText(twoDigitsF+"");
             weight_view.setText("Weight catagory: ");
             weight_view_text.setText("Normal Range");
             health_view.setText("Health Risk: ");
@@ -74,7 +81,9 @@ public class BMIInfo extends AppCompatActivity {
         }
         else if(bmi_value>=23&&bmi_value<25)
         {
-            bmi_result.setText(Float.toString(bmi_value));
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            float twoDigitsF = Float.valueOf(decimalFormat.format(bmi_value));
+            bmi_result.setText(twoDigitsF+"");
             weight_view.setText("Weight catagory: ");
             weight_view_text.setText("Overweight- At Risk");
             health_view.setText("Health Risk: ");
@@ -84,7 +93,9 @@ public class BMIInfo extends AppCompatActivity {
         }
         else if(bmi_value>=25&&bmi_value<30)
         {
-            bmi_result.setText(Float.toString(bmi_value));
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            float twoDigitsF = Float.valueOf(decimalFormat.format(bmi_value));
+            bmi_result.setText(twoDigitsF+"");
             weight_view.setText("Weight catagory: ");
             weight_view_text.setText("Overweight-Moderately Obese");
             health_view.setText("Health Risk: ");
@@ -94,7 +105,9 @@ public class BMIInfo extends AppCompatActivity {
         }
         else
         {
-            bmi_result.setText(Float.toString(bmi_value));
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+            float twoDigitsF = Float.valueOf(decimalFormat.format(bmi_value));
+            bmi_result.setText(twoDigitsF+"");
             weight_view.setText("Weight catagory: ");
             weight_view_text.setText("Overweight-Severely Obese");
             health_view.setText("Health Risk: ");

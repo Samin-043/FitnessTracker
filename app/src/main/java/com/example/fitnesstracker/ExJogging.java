@@ -1,13 +1,10 @@
 package com.example.fitnesstracker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ExJogging extends AppCompatActivity {
 
@@ -17,6 +14,8 @@ public class ExJogging extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setTitle("Jogging");
+
         setContentView(R.layout.activity_exe_jogging);
         webView=(WebView)findViewById(R.id.gif_jogging);
         WebSettings webSettings=webView.getSettings();

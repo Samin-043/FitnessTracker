@@ -1,6 +1,32 @@
 <resources>
     <string name="app_name">FitnessTracker</string>
 
+
+    <string name="ramna_park_details">
+
+        Ramna Park, Moulana Bhasani Road, Dhaka
+
+    </string>
+
+    <string name="gulsan_lake_park_details">
+
+        Gulshan Lake Park, Road No 63, Dhaka
+
+    </string>
+
+    <string name="hatirjheel_park_details">
+
+        Hatirjheel Park, Hatir Jheel Link Road, Dhaka
+
+    </string>
+
+    <string name="baridhara_park_details">
+
+        Baridhara Park, Road No. 9, Dhaka
+
+    </string>
+
+
     <string name="jump_jack">
 
         1. A Good Warm-Up Exercise.

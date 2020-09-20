@@ -36,10 +36,11 @@
 
             <Button
                 android:id="@+id/calorie"
-                android:layout_width="182dp"
-                android:layout_height="151dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
+                android:layout_width="153dp"
+                android:layout_height="114dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/cal"
                 android:onClick="calorieInfo_show"
@@ -50,15 +51,14 @@
 
             <Button
                 android:id="@+id/nutrition"
-                android:layout_width="161dp"
-                android:layout_height="154dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="65dp"
+                android:layout_width="151dp"
+                android:layout_height="118dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="200dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/nutr"
-                android:onClick="nutritionInfo_show"
-                >
+                android:onClick="nutritionInfo_show">
 
             </Button>
 
@@ -71,8 +71,8 @@
             >
 
             <TextView
-                android:layout_width="182dp"
-                android:layout_height="match_parent"
+                android:layout_width="141dp"
+                android:layout_height="27dp"
                 android:gravity="center"
                 android:text="Calorie"
                 android:textAlignment="center"
@@ -81,10 +81,9 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="90dp"
+                android:layout_width="141dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="200dp"
                 android:gravity="center"
                 android:text="Nutrition"
                 android:textAlignment="center"
@@ -106,10 +105,11 @@
 
             <Button
                 android:id="@+id/waterlog"
-                android:layout_width="176dp"
-                android:layout_height="150dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="25dp"
+                android:layout_width="153dp"
+                android:layout_height="114dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/glasses_of_water"
                 android:onClick="waterlog_show">
@@ -118,11 +118,11 @@
 
             <Button
                 android:id="@+id/dailyfood"
-                android:layout_width="98dp"
-                android:layout_height="153dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginRight="65dp"
+                android:layout_width="151dp"
+                android:layout_height="118dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="200dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/daily_food"
                 android:onClick="dailyfood_show">
@@ -139,8 +139,8 @@
             >
 
             <TextView
-                android:layout_width="199dp"
-                android:layout_height="30dp"
+                android:layout_width="141dp"
+                android:layout_height="27dp"
                 android:gravity="center"
                 android:text="WaterLog"
                 android:textColor="#FFFFF0"
@@ -149,10 +149,9 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="90dp"
+                android:layout_width="141dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="200dp"
                 android:gravity="center"
                 android:text="Daily Healthy Food"
                 android:textAlignment="center"

@@ -20,14 +20,14 @@
             <WebView
                 android:id="@+id/view_pushup"
                 android:layout_width="match_parent"
-                android:layout_height="388dp">
+                android:layout_height="308dp">
 
             </WebView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="400dp"
+                android:layout_marginTop="340dp"
                 android:paddingLeft="10dp"
                 android:textAlignment="center"
                 android:textStyle="italic|bold"
@@ -44,7 +44,7 @@
                 android:textSize="25dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="15dp"
-                android:layout_marginTop="450dp"
+                android:layout_marginTop="400dp"
                 android:textColor="#9C27B0"
                 android:layout_marginBottom="30dp"
 
