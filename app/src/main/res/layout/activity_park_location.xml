@@ -207,7 +207,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1650dp"
                 android:gravity="center"
-                android:text="@string/hatirjheel_park_details"
+                android:text="@string/baridhara_park_details"
                 android:textSize="20dp"
                 android:textStyle="bold|italic">
 
