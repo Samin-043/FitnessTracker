@@ -20,7 +20,7 @@
             <WebView
                 android:id="@+id/view_pushup"
                 android:layout_width="match_parent"
-                android:layout_height="308dp">
+                android:layout_height="274dp">
 
             </WebView>
 
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/push_up"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="15dp"
                 android:layout_marginTop="400dp"

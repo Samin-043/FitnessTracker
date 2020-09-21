@@ -21,7 +21,7 @@
             <WebView
                 android:id="@+id/mountain_climb"
                 android:layout_width="match_parent"
-                android:layout_height="308dp">
+                android:layout_height="274dp">
 
             </WebView>
 
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mountain_climb"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="15dp"
                 android:layout_marginTop="410dp"

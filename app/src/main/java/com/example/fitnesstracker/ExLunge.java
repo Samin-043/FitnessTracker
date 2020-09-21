@@ -20,7 +20,7 @@ public class ExLunge extends AppCompatActivity {
         lunge_view=(WebView)findViewById(R.id.gif_lunge);
         WebSettings webSettings=lunge_view.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        String file = "file:android_asset/lunge.gif";
+        String file = "file:android_asset/lunges_new.gif";
         lunge_view.loadUrl(file);
 
     }

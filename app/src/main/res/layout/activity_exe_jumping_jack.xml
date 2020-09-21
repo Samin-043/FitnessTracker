@@ -21,7 +21,7 @@
             <WebView
                 android:id="@+id/gif_jumping_jack"
                 android:layout_width="match_parent"
-                android:layout_height="308dp">
+                android:layout_height="274dp">
 
             </WebView>
 
@@ -33,7 +33,7 @@
                 android:textAlignment="center"
                 android:textStyle="italic|bold"
                 android:textColor="#03A9F4"
-                android:text="Benefits of Jumping Jack : "
+                android:text="Benefits of Jumping Jack: "
                 android:textSize="30dp">
 
             </TextView>
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/jump_jack"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="420dp"

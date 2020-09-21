@@ -20,7 +20,7 @@
             <WebView
                 android:id="@+id/crunch_view"
                 android:layout_width="match_parent"
-                android:layout_height="308dp"></WebView>
+                android:layout_height="274dp"></WebView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/crunch_exe"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold|normal"
                 android:paddingLeft="10dp"
                 android:layout_marginTop="380dp"

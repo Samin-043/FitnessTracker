@@ -5,43 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".CalorieInfo">
 
 
-           <ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:scaleType="fitXY"
-               android:adjustViewBounds="true"
-               android:src="@drawable/low_calorie">
-
-           </ImageView>
 
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="10dp"
-               android:gravity="top"
-               android:paddingLeft="10dp"
-               android:text="Benefits of low calorie foods:"
-               android:textAlignment="center"
-               android:textColor="#03A9F4"
-               android:textSize="30dp"
-               android:textStyle="italic|bold">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/low_calorie">
 
-           </TextView>
+        </ImageView>
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="@string/low_calorie_txt"
-               android:textColor="@color/black"
-               android:textSize="20sp"
-               android:layout_marginTop="10dp"
-               android:textStyle="bold">
 
-           </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:text="Benefits of low calorie foods:"
+            android:textAlignment="center"
+            android:textColor="#03A9F4"
+            android:textSize="30dp"
+            android:textStyle="italic|bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_calorie_txt"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+
 
 
 </LinearLayout>

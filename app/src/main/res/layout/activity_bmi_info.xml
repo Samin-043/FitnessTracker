@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bac_4"
+    android:padding="5dp"
     tools:context=".BMIInfo"
     android:orientation="vertical">
 
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
+
             >
 
             <Button
@@ -42,7 +44,7 @@
                 android:layout_marginRight="100dp"
                 android:onClick="show_bmichart"
                 android:text="BMI CHART"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="italic|bold"
 
                 >
@@ -63,11 +65,11 @@
 
             <TextView
                 android:id="@+id/bmi_cal_show"
-                android:layout_width="124dp"
-                android:layout_height="60dp"
+                android:layout_width="101dp"
+                android:layout_height="48dp"
                 android:layout_marginLeft="180dp"
                 android:layout_marginTop="110dp"
-                android:layout_marginRight="50dp"
+                android:layout_marginRight="30dp"
                 android:background="#FFFFFF"
                 android:gravity="center"
                 android:textSize="20dp"
@@ -85,7 +87,7 @@
                 android:layout_marginRight="220dp"
                 android:gravity="center"
                 android:text="Height: "
-                android:textSize="23dp"
+                android:textSize="21dp"
                 android:textStyle="normal|bold"
 
                 >
@@ -96,28 +98,28 @@
                 android:id="@+id/bmi_foot"
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="110dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="200dp"
                 android:layout_marginRight="150dp"
                 android:gravity="center"
                 android:hint="Exa: 5"
                 android:inputType="number"
-                android:textSize="23dp"
+                android:textSize="21dp"
                 android:textStyle="normal">
 
             </EditText>
 
             <EditText
                 android:id="@+id/bmi_inch"
-                android:layout_width="80dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="200dp"
+                android:layout_marginLeft="190dp"
                 android:layout_marginTop="200dp"
                 android:layout_marginRight="80dp"
                 android:gravity="center"
-                android:textSize="23dp"
-                android:inputType="number"
                 android:hint="Exa: 3"
+                android:inputType="number"
+                android:textSize="21dp"
                 android:textStyle="normal">
 
             </EditText>
@@ -126,10 +128,10 @@
                 android:layout_width="99dp"
                 android:layout_height="52dp"
                 android:gravity="center"
-                android:layout_marginLeft="290dp"
+                android:layout_marginLeft="270dp"
                 android:layout_marginTop="200dp"
                 android:text="Foot (Inch)"
-                android:textSize="23dp"
+                android:textSize="21dp"
                 android:textStyle="normal|bold"
 
                 >
@@ -140,10 +142,11 @@
                 android:layout_width="99dp"
                 android:layout_height="52dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="270dp"
+                android:layout_marginTop="260dp"
                 android:layout_marginRight="220dp"
                 android:text=" Weight: "
-                android:textSize="23dp"
+                android:gravity="center"
+                android:textSize="21dp"
                 android:textStyle="normal|bold"
 
                 >
@@ -160,7 +163,7 @@
                 android:gravity="center"
                 android:hint="Exa: 60"
                 android:inputType="number"
-                android:textSize="23dp"
+                android:textSize="21dp"
                 android:textStyle="normal">
 
             </EditText>
@@ -169,10 +172,10 @@
                 android:layout_width="99dp"
                 android:layout_height="52dp"
                 android:gravity="center"
-                android:layout_marginLeft="290dp"
+                android:layout_marginLeft="270dp"
                 android:layout_marginTop="260dp"
                 android:text="kg"
-                android:textSize="23dp"
+                android:textSize="21dp"
                 android:textStyle="normal|bold"
 
                 >
@@ -184,7 +187,7 @@
                 android:layout_width="320dp"
                 android:layout_height="68dp"
                 android:layout_marginLeft="100dp"
-                android:layout_marginTop="370dp"
+                android:layout_marginTop="360dp"
                 android:layout_marginRight="100dp"
                 android:onClick="show_bmi_cal"
                 android:text="calculate"
@@ -198,9 +201,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="450dp"
+                android:layout_marginTop="460dp"
                 android:textStyle="bold|normal"
-                android:textColor="#009688"
+                android:textColor="#8BC34A"
                 android:text=""
                 android:textSize="20dp"
                 >
@@ -211,8 +214,8 @@
                 android:id="@+id/we_catagory_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="180dp"
-                android:layout_marginTop="450dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="460dp"
                 android:text=""
                 android:textSize="20dp"
                 >
@@ -225,8 +228,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:textStyle="bold|normal"
-                android:textColor="#009688"
-                android:layout_marginTop="500dp"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="520dp"
+                android:gravity="center"
                 android:text=""
                 android:textSize="20dp"
                 >
@@ -237,8 +241,8 @@
                 android:id="@+id/health_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="180dp"
-                android:layout_marginTop="500dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="520dp"
                 android:text=""
                 android:textSize="20dp"
                 >

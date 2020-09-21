@@ -1,6 +1,111 @@
 <resources>
     <string name="app_name">FitnessTracker</string>
 
+    <string-array name="weeks">
+
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+
+    </string-array>
+
+    <string-array name="dailyroutine">
+
+        <item>Morning</item>
+        <item>During Day</item>
+        <item>Evening</item>
+
+        <item>Night</item>
+
+    </string-array>
+
+    <string-array name="dailyroutine1">
+
+        <item>Morning</item>
+        <item>During Day</item>
+
+
+        <item>Night</item>
+
+    </string-array>
+
+    <string-array name="tasks2">
+
+        <item>Morning Time
+        \n\n5.00am to 6.00am:\n\n
+            Wake up early in the morning for praying your prayers and get yourself ready for the morning exercises.
+            Drink two glasses of water with lemon because it helps us keep hydrated and reduce constipation.\n\n\n
+            6.00am to 8.00am:\n\n
+            Go to nearby park and do morning walk for 1 hour. After warming up do some physical exercises like push ups , sit ups , jogging , running  , plank etc.  for another hour .You have to do the exercise on an empty stomach because this will reduce elevated morning cortisol levels and burn extra body fat. In fact, an older study published in British Journal of Nutrition showed that people can burn up to 20 percent more body fat when exercise is done in the fasted state in the morning than when it’s done later in the day. \n\n\n
+            8.00am to 9.00am:\n\n
+            Enjoy a smoothie for breakfast each morning during the work week. In a blender, combine a whey protein isolate or vegan protein powder, one tablespoon natural almond butter (or coconut oil), 1 tablespoon ground flaxseed, 1/2 cup of frozen berries, and water. Turn it into a power smoothie by adding one of these: lecithin, cinnamon, greens powder, or unsweetened cocoa powder. If you need to, skip the berries and put it in a shaker cup and drink it during the day. Consume your nutrient essentials, such as a high-quality multivitamin, a vitamin D supplement, and capsules of omega-3 fish oils. This combo will help to reduce inflammation, boost immunity, lower blood pressure and ensure optimal health.\n\n\n
+            9.00am to 10.00am:\n\n
+            After finishing a healthy breakfast you should get ready for school/college/workplace during this time. If you have time then you can relax and drink water to stay hydrated. You can take a walk for 10 minutes for refreshment of your mind and maintain your sugar level.
+        </item>
+        <item>Day Time
+            \n\n
+            1. Plan to go on a picnic with your family and go on a long tour for entertainment.\n
+            2. Try to do meditating. This will help you to refresh your mind and body.\n
+            3. Hangout with your friends and families. Communicating with others makes your leisure time pleasant and fruitful.\n
+            4. You can do extra workout in your weekend day to stay fit and healthy.\n
+            5. You can play some video games or watch TV with your friends to spend the time.
+
+
+</item>
+
+
+        <item>Night Time
+        \n\n7:00pm to 8:00 pm:\n\n
+Eat your dinner two hours before bed to promote uninterrupted sleep. Your plate should include lots of fibrous carbohydrates, made up of one-third salad and one-third veggies. The other third should be your protein. Your fats may fall on top of your carbohydrate selections (as an olive oil or salad dressing, for instance) or be consumed within your protein selections. I recommend including a complex carbohydrate like brown rice, sweet potato, or squash with your evening meal. Take your second dose of omega-3 fish oil capsules with this meal.\n\n\n
+9:30pm to 10:00 pm:\n\n
+Spend some time alone, even if it is just 15 minutes, to breathe deeply, meditate, ponder, review your goals, or write in a journal to wind down before bed and collect your thoughts. Designate this time as your time daily.\n\n\n
+10:30pm to 11:00 pm:\n\n
+Aim to get to bed before 11pm, sleeping in a darkened room for optimal recovery and to maximize the release of melatonin. Most sleep experts agree that seven to eight hours a night is optimal. However, some people may require more or less sleep than others. If you wake without an alarm and feel refreshed when you get up, you’re likely getting the right amount of sleep for you. If you have trouble sleeping due to high stress levels, you can add in a magnesium glycinate supplement.\n\n\n
+
+</item>
+
+    </string-array>
+
+    <string-array name="tasks1">
+
+        <item>Morning Time
+        \n\n5.00am to 6.00am:\n\n
+            Wake up early in the morning for praying your prayers and get yourself ready for the morning exercises.
+            Drink two glasses of water with lemon because it helps us keep hydrated and reduce constipation.\n\n\n
+            6.00am to 8.00am:\n\n
+            On a weekend plan a morning workout with friends. After warming up do some physical exercises like push ups , sit ups , jogging , running  , plank etc.  for another hour .You have to do the exercise on an empty stomach because this will reduce elevated morning cortisol levels and burn extra body fat. In fact, an older study published in British Journal of Nutrition showed that people can burn up to 20 percent more body fat when exercise is done in the fasted state in the morning than when it’s done later in the day. \n\n\n
+            8.00am to 9.00am:\n\n
+            Enjoy a smoothie for breakfast each morning during the work week. In a blender, combine a whey protein isolate or vegan protein powder, one tablespoon natural almond butter (or coconut oil), 1 tablespoon ground flaxseed, 1/2 cup of frozen berries, and water. Turn it into a power smoothie by adding one of these: lecithin, cinnamon, greens powder, or unsweetened cocoa powder. If you need to, skip the berries and put it in a shaker cup and drink it during the day. Consume your nutrient essentials, such as a high-quality multivitamin, a vitamin D supplement, and capsules of omega-3 fish oils. This combo will help to reduce inflammation, boost immunity, lower blood pressure and ensure optimal health.\n\n\n
+            9.00am to 10.00am:\n\n
+            After finishing a healthy breakfast you should get ready for school/college/workplace during this time. If you have time then you can relax and drink water to stay hydrated. You can take a walk for 10 minutes for refreshment of your mind and maintain your sugar level.
+        </item>
+        <item>Day Time
+        \n\nHave  a snack that contains protein at mid-morning and mid-afternoon each day. Pack two snacks and a lunch for the office each day. Options can include a small apple with some almonds, a boiled egg, tomatoes with balsamic dressing and a piece of feta cheese, hummus with veggie sticks and 4% Allegro cheese, or a protein bar.\n Ensure you are eating every three hours, and aim to never miss your afternoon snack. Studies show individuals who eat frequent small meals enjoy greater weight loss. Eating regularly will avoid blood-sugar highs and lows that can affect your mood and energy.
+Keep a big bottle for water on your desk and fill it each morning, keeping in mind that you should finish it by the end of the day. Fill a thermos or a nice teapot with hot water, put in three or four green tea bags and let it steep. Drink the tea throughout the day in addition to your water.
+</item>
+
+        <item>Evening Time
+            \n\nDuring this time around 5.30 - 7.00pm you can Aim to do a high-intensity resistance-training circuit three times each week to maintain metabolically active muscle and improve insulin sensitivity.\n Be sure to follow up your workout with a sugar-free drink that includes amino acids and antioxidants, which aid energy, exercise recovery, insulin balance and cellular repair.
+
+        </item>
+        <item>Night Time
+        \n\n7:00pm to 8:00 pm:\n\n
+Eat your dinner two hours before bed to promote uninterrupted sleep. Your plate should include lots of fibrous carbohydrates, made up of one-third salad and one-third veggies. The other third should be your protein. Your fats may fall on top of your carbohydrate selections (as an olive oil or salad dressing, for instance) or be consumed within your protein selections. I recommend including a complex carbohydrate like brown rice, sweet potato, or squash with your evening meal. Take your second dose of omega-3 fish oil capsules with this meal.\n\n\n
+9:30pm to 10:00 pm:\n\n
+Spend some time alone, even if it is just 15 minutes, to breathe deeply, meditate, ponder, review your goals, or write in a journal to wind down before bed and collect your thoughts. Designate this time as your time daily.\n\n\n
+10:30pm to 11:00 pm:\n\n
+Aim to get to bed before 11pm, sleeping in a darkened room for optimal recovery and to maximize the release of melatonin. Most sleep experts agree that seven to eight hours a night is optimal. However, some people may require more or less sleep than others. If you wake without an alarm and feel refreshed when you get up, you’re likely getting the right amount of sleep for you. If you have trouble sleeping due to high stress levels, you can add in a magnesium glycinate supplement.\n\n\n
+
+</item>
+
+    </string-array>
+
+    ////.........part......../////
 
     <string name="ramna_park_details">
 

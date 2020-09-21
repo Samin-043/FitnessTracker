@@ -20,7 +20,7 @@ public class ExJogging extends AppCompatActivity {
         webView=(WebView)findViewById(R.id.gif_jogging);
         WebSettings webSettings=webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        String file = "file:android_asset/jogging_runner.gif";
+        String file = "file:android_asset/final_jogging.gif";
         webView.loadUrl(file);
 
     }

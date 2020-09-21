@@ -34,6 +34,10 @@
         <activity android:name=".CalorieInfo" />
         <activity android:name=".NutritionInfo" />
         <activity android:name=".WaterLogInfo" />
+        <activity android:name=".WeekendDay" />
+        <activity android:name=".WorkingDay" />
+        <activity android:name=".DailyRoutineInfo" />
+        <activity android:name=".DailyFoodInfo" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

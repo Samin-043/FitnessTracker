@@ -67,5 +67,10 @@ public class Main2Activity extends AppCompatActivity {
         Intent i=new Intent(getApplicationContext(),ParkLocation.class);
         startActivity(i);
     }
+
+    public void showDailyRoutine(View view) {
+        Intent i=new Intent(getApplicationContext(),DailyRoutineInfo.class);
+        startActivity(i);
+    }
 }
 
