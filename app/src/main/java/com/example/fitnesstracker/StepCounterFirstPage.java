@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+
 public class StepCounterFirstPage extends AppCompatActivity {
 
     private Button nextBuxtton;
@@ -73,15 +74,6 @@ public class StepCounterFirstPage extends AppCompatActivity {
 
     public void data_save() {
 
-        /*double foot_h=Double.parseDouble(String.valueOf(foot_height));
-        foot_h=foot_h*30.48;
-        double inch_h=Double.parseDouble(String.valueOf(inch_height));
-        inch_h=inch_h*2.54;
-
-        double height_sum=foot_h+inch_h;
-
-        String person_height=Double.toString(height_sum);*/
-
         String height=foot_height.getText().toString().trim()+"ft "+inch_height.getText().toString().trim()+"inch";
 
         if(radio_man.isChecked()==true)
@@ -95,15 +87,12 @@ public class StepCounterFirstPage extends AppCompatActivity {
         String person_name=name_person.getText().toString().trim();
         String person_weight=weight.getText().toString().trim()+" kg";
 
-
         String key=databaseReference.push().getKey();
 
-        //PersonInfo personInfo;
-        PersonInfo person_Info=new PersonInfo(person_name,person_weight,gender,height);
+        PersonInfo person_Info=new PersonInfo(person_name, person_weight, gender, height);
 
         databaseReference.child(key).setValue(person_Info);
         Toast.makeText(getApplicationContext(), "Persons Info is added", Toast.LENGTH_LONG).show();
-
 
     }
 

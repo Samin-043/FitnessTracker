@@ -40,7 +40,7 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_step_tracker);
-        this.setTitle("Walking Tracker");
+        this.setTitle("Pedometer");
 
 
         // Get an instance of the SensorManager

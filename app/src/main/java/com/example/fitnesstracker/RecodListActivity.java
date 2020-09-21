@@ -28,7 +28,6 @@ public class RecodListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recod_list);
-        this.setTitle("Record List");
 
         databaseReference= FirebaseDatabase.getInstance().getReference("PersonsInfo");
         personInfoList=new ArrayList<>();

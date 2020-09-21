@@ -6,35 +6,15 @@ public class PersonInfo {
     private  String height;
     private  String weight;
 
-
-    public PersonInfo()
-    {
-
+    public PersonInfo(String person_name, String person_weight, String gender, String height) {
+        this.name=person_name;
+        this.gender=gender;
+        this.height=height;
+        this.weight=person_weight;
     }
 
-    public PersonInfo(String name, String weight, String gender, String height) {
+    public PersonInfo() {
 
-        this.gender = gender;
-        this.name = name;
-        this.height = height;
-        this.weight = weight;
-
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getWeight() {
-        return weight;
-    }
-
-    public void setWeight(String weight) {
-        this.weight = weight;
     }
 
     public String getGender() {
@@ -45,12 +25,28 @@ public class PersonInfo {
         this.gender = gender;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getHeight() {
         return height;
     }
 
     public void setHeight(String height) {
         this.height = height;
+    }
+
+    public String getWeight() {
+        return weight;
+    }
+
+    public void setWeight(String weight) {
+        this.weight = weight;
     }
 }
 
