@@ -1,6 +1,102 @@
 <resources>
     <string name="app_name">FitnessTracker</string>
 
+
+    <string name="vinyasa_txt">
+        \n
+        Vinyasa yoga is popular and is taught at most studios and gyms. “Vinyasa” means linking breath with movement. The postures are usually done in a flowing sequence, or "vinyasa flow." The fluid movements can be memorized and done as a moving meditation, almost like a dance.\n
+
+The popularity of this style of yoga comes from the sensual movements, pleasant music, usually (but not always) practiced in a dark room, or sometimes by candlelight and with the eyes closed.
+    </string>
+
+    <string name="vinyasa_benefits">
+        \n
+        1. Endurance and strength training.
+        \n
+        2. Stability and balance.
+        \n
+        3.Cardio workout.
+        \n
+        4. Lower stress, less anxiety.
+
+
+
+    </string>
+
+    <string name="ashtanga_txt">
+        \n
+
+        Ashtanga means “eight limbs” and encompasses a yogic lifestyle. Most people identify Ashtanga as traditional Indian yoga. Like Vinyasa yoga, the Ashtanga yoga asanas (postures) synchronize breath with movement as you move through a series of postures.\n
+
+It was brought to the United States by Sri K. Pattabhi Jois in the early 20th century. The series of postures are practiced the same way every time and consist of Sun Salutation A, Sun Salutation B, a standing sequence, and a closing sequence. The practice is usually performed without music, and sometimes without verbal instruction (in silence).
+    </string>
+
+    <string name="ashtanga_benefits">
+        \n
+        1.Improve flexibility.
+        \n
+        2.Increase strength.
+        \n
+        3.Increase muscle tone.
+        \n
+        4.Reduce body fat.
+        \n
+        5.Reduce stress and anxiety.
+
+
+
+    </string>
+
+    <string name="iyengar_txt">
+        \n
+
+        Also based on the Eight Limbs of Yoga, Iyengar yoga is named after B.K.S. Iyengar, a famous yogi from India. It was popularized in the West about the same time as Ashtanga yoga.\n
+
+The emphasis on this practice is alignment in the asanas using breath control through pranayama and the use of props (bolsters, blankets, blocks and straps.) This style of yoga is usually taught without music and at a slower pace designed to assist students to get deeper into the postures.
+    </string>
+
+    <string name="iyengar_benefits">
+        \n
+        1.Toned muscles.
+        \n
+        2.Pain relief.
+        \n
+        3.Improved posture.
+        \n
+        4.Protection from disease.
+        \n
+        5.Improved breathing.
+
+
+
+    </string>
+
+    <string name="yin_txt">
+    \n
+        Yin yoga is a meditative practice that allows your body to become comfortable in a pose without doing any work (strength). It is also called Taoist yoga, and focuses on lengthening the connective tissues within the body. It is meant to compliment Yang yoga, or muscle-forming yoga practices.\n
+
+If Yang is active, then Yin is passive, meaning the muscles are allowed to relax with gravity and rest. This is usually performed with the assistance of props, and there is little or no music in class.
+    </string>
+
+    <string name="yin_benefits">
+        \n
+        1.Calms and balances the mind and body.
+        \n
+        2.Reduces stress and anxiety.
+        \n
+        3.Increases circulation.
+        \n
+        4.Improves flexibility.
+        \n
+        5.Releases fascia and improves joint mobility.
+        \n
+        6.Balances the internal organs and improves the flow of chi or prana.
+
+
+
+    </string>
+
+
     <string-array name="weeks">
 
         <item>Sunday</item>

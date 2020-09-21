@@ -186,7 +186,9 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="25dp"
-                    android:background="@drawable/new_png_yoga">
+                    android:background="@drawable/new_png_yoga"
+                    android:onClick="show_yoga_info"
+                    >
 
                 </Button>
 

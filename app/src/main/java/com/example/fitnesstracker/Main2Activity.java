@@ -72,5 +72,10 @@ public class Main2Activity extends AppCompatActivity {
         Intent i=new Intent(getApplicationContext(),DailyRoutineInfo.class);
         startActivity(i);
     }
+
+    public void show_yoga_info(View view) {
+        Intent i=new Intent(getApplicationContext(),YogaInfo.class);
+        startActivity(i);
+    }
 }
 

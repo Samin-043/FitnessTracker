@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Yoga_Vinyasa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#533634">
+
+
+            <WebView
+                android:id="@+id/gif_vinyasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </WebView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="350dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textStyle="italic|bold"
+                android:textColor="#A003F4"
+                android:text="Description "
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vinyasa_txt"
+                android:textSize="25dp"
+                android:textStyle="bold|normal"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="380dp"
+                android:textColor="#CCC4D5"
+                android:layout_marginBottom="30dp"
+
+                >
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="920dp"
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textStyle="italic|bold"
+                android:textColor="#9003F4"
+                android:text="Benefits of Vinyasa Yoga "
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vinyasa_benefits"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold|normal"
+                android:layout_marginTop="950dp"
+                android:textColor="#CDB4D1"
+                android:layout_marginBottom="30dp"
+
+                >
+
+            </TextView>
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

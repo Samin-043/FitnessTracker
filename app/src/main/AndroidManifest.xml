@@ -38,6 +38,11 @@
         <activity android:name=".WorkingDay" />
         <activity android:name=".DailyRoutineInfo" />
         <activity android:name=".DailyFoodInfo" />
+        <activity android:name=".YogaInfo" />
+        <activity android:name=".Yoga_Ashtanga" />
+        <activity android:name=".Yoga_Iyengar" />
+        <activity android:name=".Yoga_Vinyasa" />
+        <activity android:name=".Yoga_Yin" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
