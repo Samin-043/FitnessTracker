@@ -1,3 +1,3 @@
 Fitness Tracker
 
-My comlete First Android Project
+My complete First Android Project
