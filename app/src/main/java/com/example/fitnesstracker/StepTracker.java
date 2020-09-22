@@ -28,8 +28,8 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
     private  TextView time;
 
     private int numSteps;
-    int hour=0,minute=0;
-    int count=0;
+    int hour,minute;
+    int count;
     double dis;
     double calorie;
     String person_name;
@@ -70,6 +70,9 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
 
 
         numSteps=0;
+        count=0;
+        minute=0;
+        hour=0;
         TvSteps.setText(TEXT_NUM_STEPS + numSteps);
         distance.setText("0");
         calorie_burn.setText("0");
@@ -111,7 +114,7 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
             count=0;
         }
 
-        if(numSteps%60==0)
+        if(numSteps>0&&numSteps%60==0)
         {
             if(numSteps%3600==0)
             {
@@ -124,6 +127,7 @@ public class StepTracker extends AppCompatActivity implements SensorEventListene
             {
                 minute=numSteps/60;
                 time.setText(hour+"h"+minute+"m  ");
+                //check=true;
             }
         }
         else
